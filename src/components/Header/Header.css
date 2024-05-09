@@ -1,0 +1,10 @@
+.header-container{
+    background-color: rgb(233, 233, 223);
+    padding: 15px;
+}
+.header-container a {
+    text-decoration: none;
+    padding: 15px;
+    font-size: 22px;
+    color: black;
+}

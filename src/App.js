@@ -12,16 +12,15 @@ function App() {
       children: [
         {
           path: '/',
-          element: <Home></Home>
-        },
-        {
-          path: '/home',
           loader: async () => fetch('products.json'),
           element: <Home></Home>
         },
         {
           path: '/shop',
           element: <Shop></Shop>
+        },
+        {
+          path: '/*', element: <div>This page was not define</div>
         }
       ]
     }
